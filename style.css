@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKkxAzrwr_E4mKmORp1sgI3v4OHktsDDzRrw&s') no-repeat center center fixed;
+  background-size: cover;
+  color: #f4ecec;
+}
+
+nav {
+  background-color: none ;
+margin: 50px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+h1, h2 ,p , h3 {
+  text-align: center;
+}
+
+form {
+  display:-moz-inline-box;
+  box-direction: column;
+}
+
+label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  padding: 1px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+ padding:10px;
+background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d40b0b;
+}
